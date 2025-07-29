@@ -9,6 +9,15 @@ Questo progetto è una web app sviluppata con Spring Boot, utilizzando l'archite
 - Database MySQL per la gestione dei dati
 - Funzionalità social-like per interazioni tra utenti (creazioni post e commenti)
 
-## Contatti
+## Database
 
-Autore: Alessandro Valenti
+Lo schema del database è definito nel file schema.sql nella directory 'db'.
+
+Per creare il database in locale:
+
+1. Crea un database MySQL chiamato 'db_assignment'.
+2. Esegui lo script 'schema.sql' per generare le tabelle.
+
+## Autore
+
+Alessandro Valenti
