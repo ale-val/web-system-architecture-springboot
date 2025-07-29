@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<posts xmlns:th="http://www.thymeleaf.org">
+
+    <post th:each="post : ${listaPost}" th:attr="id=${post.post_id}">
+        <utente th:text="${post.utente.nome_utente}">Utente</utente>
+        <timestamp th:text="${post.creazione}">2024-11-09T10:30:00</timestamp>
+        <contenuto th:text="${post.contenuto}">Contenuto del post</contenuto>
+    </post>
+
+</posts>

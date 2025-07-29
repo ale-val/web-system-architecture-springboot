@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<posts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="listaPostSchema.xsd">
+    <post id="3">
+        <utente>Giovanni</utente>
+        <timestamp>2024-11-09T19:30:00</timestamp>
+        <contenuto>Buongiorno!!</contenuto>
+        <commenti>
+            <commento id="1">
+                <utente>utente1</utente>
+                <timestamp>2024-11-09T11:00:00</timestamp>
+                <commentText>Anche a te</commentText>
+            </commento>
+        </commenti>
+    </post>
+    <post id="4">
+        <utente>Silvestro</utente>
+        <timestamp>2024-11-08T21:32:00</timestamp>
+        <contenuto>La mia nuova macchina!</contenuto>
+        <commenti>
+            <commento id="1">
+                <utente>utente3</utente>
+                <timestamp>2024-11-09T11:00:00</timestamp>
+                <commentText>Stupenda</commentText>
+            </commento>
+        </commenti>
+    </post>
+</posts>

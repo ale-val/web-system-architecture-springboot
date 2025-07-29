@@ -1,0 +1,7 @@
+<h1>Crea un nuovo post</h1>
+<form class="forms" th:action="@{/nuovo-post}" method="POST" th:object="${postForm}">
+  <label for="contenuto">Contenuto:</label>
+  <textarea id="contenuto" name="contenuto" rows="6" maxlength="280" required></textarea>
+
+  <button type="submit">Pubblica</button>
+</form>

@@ -1,0 +1,7 @@
+<commenti xmlns:th="http://www.thymeleaf.org">
+    <commento th:each="comment : ${listaCommenti}">
+        <utente th:text="${comment.utente.nome_utente}">utente</utente>
+        <contenuto th:text="${comment.contenuto}">Contenuto del commento</contenuto>
+        <timestamp th:text="${comment.creazione}">data</timestamp>
+    </commento>
+</commenti>

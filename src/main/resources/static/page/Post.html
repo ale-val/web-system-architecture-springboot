@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Dettagli</title>
+    <link rel="stylesheet" href="../CSS/stilePost.css">
+</head>
+<body>
+    <h2>Dettagli del Post</h2>
+    <p id="username"><strong>Username</strong></p>
+    <p id="contenutoPost">Guarda cosa è successo oggi!!</p>
+
+    <h2>Commenti</h2>
+    <ul id="listaCommenti">
+      <li id="comment">Utente1: Bellissimo!!</li>
+    </ul>
+
+    <form action="/comment" method="post">
+        <label for="commento">Commenta:</label><br>
+        <textarea id="commento" name="commento" rows="4" cols="50"></textarea><br>
+        <button type="submit">Pubblica</button>
+    </form>
+
+    <a href="../../templates/Home.html">Torna alla home</a>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<posts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="listaPostSchema.xsd">
+    <post id="1">
+        <utente>Alessandro</utente>
+        <timestamp>2024-11-09T10:30:00</timestamp>
+        <contenuto>Guarda cosa ho fatto oggi :)</contenuto>
+        <commenti>
+            <commento id="1">
+                <utente>utente1</utente>
+                <timestamp>2024-11-09T11:00:00</timestamp>
+                <commentText>Assurdo</commentText>
+            </commento>
+            <commento id="2">
+                <utente>utente2</utente>
+                <timestamp>2024-11-09T11:15:00</timestamp>
+                <commentText>bellissimo</commentText>
+            </commento>
+        </commenti>
+    </post>
+    <post id="2">
+        <utente>Alfonso</utente>
+        <timestamp>2024-11-08T18:45:00</timestamp>
+        <contenuto>Come state?</contenuto>
+    </post>
+    <post id="3">
+        <utente>Franco</utente>
+        <timestamp>2024-11-12T10:30:00</timestamp>
+        <contenuto>Il mio nuovo telefono!!</contenuto>
+        <commenti>
+            <commento id="1">
+                <utente>utente1</utente>
+                <timestamp>2024-11-09T11:00:00</timestamp>
+                <commentText>Assurdo</commentText>
+            </commento>
+            <commento id="2">
+                <utente>utente2</utente>
+                <timestamp>2024-11-09T11:15:00</timestamp>
+                <commentText>bellissimo</commentText>
+            </commento>
+            <commento id="3">
+                <utente>utente2</utente>
+                <timestamp>2024-11-09T11:15:00</timestamp>
+                <commentText>bellissimo</commentText>
+            </commento>
+        </commenti>
+    </post>
+    <post id="4">
+        <utente>Alfonso</utente>
+        <timestamp>2024-11-08T18:45:00</timestamp>
+        <contenuto>Cosa facciamo questa sera?</contenuto>
+    </post>
+</posts>

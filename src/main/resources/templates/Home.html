@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" th:href="@{/CSS/stileHome.css}">
+</head>
+
+<body>
+    <div class="info">
+        <h1>Benvenuto! </h1>
+        <h2 id="nomeUtente" th:text="${#authentication.name}">Username</h2>
+
+        <button onclick="openNuovoPostModal()">Crea un nuovo post</button>
+
+        <form th:action="@{/logout}" class="logout">
+            <button>Logout</button>
+        </form>
+    </div>
+
+    <div id="finestraModale" class="finestraModale">
+        <div id="contenutoModale" class="contenutoModale">
+            <span id="close" class="close">&times;</span>
+            <div id="contenutoDinamico">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="listaPost">
+        <h1>Post recenti</h1>
+        <ul id="listaPosts">
+
+        </ul>
+        <button id="caricaAltro">Carica altri post</button>
+    </div>
+
+    <script th:src="@{javaScript/ListaPost.js}"></script>
+</body>
+</html>
